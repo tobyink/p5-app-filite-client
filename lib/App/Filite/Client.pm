@@ -65,6 +65,7 @@ sub _parse_opts {
 	return $opts;
 }
 
+## no Test::Tabs
 sub _print_usage {
 	print <<"STDERR"; return 0;
 $0: share via a filite server
@@ -82,6 +83,7 @@ Options:
 
 STDERR
 }
+## use Test::Tabs
 
 sub execute {
 	my ( $self, $args ) = ( shift, @_ );
