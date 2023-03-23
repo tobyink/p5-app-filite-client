@@ -5,7 +5,7 @@ use warnings;
 package App::Filite::Client;
 
 our $AUTHORITY = 'cpan:TOBYINK';
-our $VERSION   = '0.001000';
+our $VERSION   = '0.001001';
 
 use Carp qw( croak );
 use File::XDG;
