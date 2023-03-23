@@ -4,6 +4,16 @@
 
 `App-Filite-Client`
 	:runtime-requirement    [ :on "perl 5.010001"^^:CpanId ];
+	:runtime-requirement    [ :on "Carp"^^:CpanId ];
+	:runtime-requirement    [ :on "File::XDG"^^:CpanId ];
+	:runtime-requirement    [ :on "Getopt::Long"^^:CpanId ];
+	:runtime-requirement    [ :on "HTTP::Tiny"^^:CpanId ];
+	:runtime-requirement    [ :on "HTTP::Tiny::Multipart"^^:CpanId ];
+	:runtime-requirement    [ :on "JSON::PP"^^:CpanId ];
+	:runtime-requirement    [ :on "MIME::Base64"^^:CpanId ];
+	:runtime-requirement    [ :on "Path::Tiny"^^:CpanId ];
+	:runtime-requirement    [ :on "Class::Tiny"^^:CpanId ];
+	:runtime-requirement    [ :on "namespace::autoclean"^^:CpanId ];
 	:test-requirement       [ :on "Test2::V0"^^:CpanId ];
 	:test-requirement       [ :on "Test2::Tools::Spec"^^:CpanId ];
 	:test-requirement       [ :on "Test2::Require::AuthorTesting"^^:CpanId ];

@@ -24,6 +24,15 @@ use Test2::V0;
 
 my @modules = qw(
 	Carp
+	Class::Tiny
+	File::XDG
+	Getopt::Long
+	HTTP::Tiny
+	HTTP::Tiny::Multipart
+	JSON::PP
+	MIME::Base64
+	Path::Tiny
+	namespace::autoclean
 	Test2::V0
 );
 
